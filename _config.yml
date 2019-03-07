@@ -7,13 +7,51 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Ruan van Mazijk"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Ruan van Mazijk"
+description              : &description |
+  <p>
+    A South African ecology and evolutionary biology Masters student at the
+    <a href="http://www.biologicalsciences.uct.ac.za/">Dept. of Biological Sciences</a>,
+    <a href="http://www.uct.ac.za/">University of Cape Town</a> (UCT).
+  </p>
+  <div class="row">
+    <style>
+      .column {
+        float: left;
+        width: 50%;
+      }
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
+    <div class="column">
+      <a href="http://www.uct.ac.za/">
+        <img src="https://rvanmazijk.github.io/logos/UCT.png" width="50" height="50" />
+      </a>
+      <a href="http://www.biologicalsciences.uct.ac.za/">
+        <img src="https://rvanmazijk.github.io/logos/BIO.png" width="50" height="50" />
+      </a>
+    </div>
+    <div class="column">
+      <a href="https://twitter.com/rvanmazijk">
+        <img src="https://rvanmazijk.github.io/logos/Twitter.png" width="16" height="16" /> @rvanmazijk
+      </a><br>
+      <a href="https://github.com/rvanmazijk">
+        <img src="https://rvanmazijk.github.io/logos/GitHub.png" width="16" height="16" /> @rvanmazijk
+      </a><br>
+      <a href="https://www.researchgate.net/profile/Ruan_Van_Mazijk">
+        <img src="logos/ResearchGate-green.jpg" width="16" height="16" /> ResearchGate
+      </a>
+    </div>
+  </div>
+url                      : https://rvanmazijk.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "rvanmazijk/rvanmazijk.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -57,7 +95,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &twitter "rvanmazijk"
 facebook:
   username               :
   app_id                 :
@@ -80,15 +118,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
+  name             : "Ruan van Mazijk"
+  avatar           : "face2.jpg"
   bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  location         : "Cape Town, South Africa"
+  employer         : "Dept. Biological Sciences, University of Cape Town"
+  pubmed           : 
+  googlescholar    : "https://scholar.google.co.za/citations?user=lXBzsJ8AAAAJ&hl=en"
+  email            : "ruanvmazijk@gmai.com"
+  researchgate     : "https://www.researchgate.net/profile/Ruan_Van_Mazijk
   uri              :
   bitbucket        :
   codepen          :
@@ -96,19 +134,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "rvanmazijk"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "rvanmazijk"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/ruan-van-mazijk-4a04b0127/"
+  orcid            : "https://orcid.org/0000-0003-2659-6909"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "rvanmazijk"
   vine             :
   weibo            :
   xing             :
